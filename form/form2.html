@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<style>
+        body{
+            font-family: 'Oswald', sans-serif;
+            height: 800px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        div{
+            border: 3px solid #000000;
+            border-radius: 9px;
+        }
+
+        form{
+            background-color: rgb(202, 201, 199);
+            border-radius: 9px;
+            display: flex;
+            border: 3px solid #000000;
+            width: 300px;
+            height: 440px;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px;
+        }
+        button{
+            border-radius: 10px;
+            padding: 10px;
+            background-color: rgb(30, 160, 69);
+        }
+        h2{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+<body>
+    
+<form action="">
+        <h2>Регистрация</h2>
+        <label for="">Имя</label>
+        <input type="text">
+        
+        <label for="">Фамилия</label>
+        <input type="text">
+
+        <label for="">Возраст</label>
+        <input type="text">
+
+        <label for="">Пол</label>
+        <div>
+            <input type="radio" name="gender" value="male"> Мужчина<br>
+            <input type="radio" name="gender" value="female"> Женщина<br>
+        <label for="">Свой вариант</label>
+        <input type="text">
+        </div>
+
+        <label for="">Электронная почта</label>
+        <input type="text">
+        
+        <label for="">Пароль</label>
+        <input type="password">
+
+        <label for="">Повторите пароль</label>
+        <input type="password">
+        <br>
+        <button>Зарегестрироваться</button>
+    </form>
+
+
+
+
+
+
+</body>
+</html>
